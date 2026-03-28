@@ -1,38 +1,26 @@
-# Sistema de Gestión de Turnos Multicomercio (Shopping Scheduler)
+# 🎓 Proyecto Final de Carrera - Tecn. Universitaria en Programación
 
-Este proyecto es una plataforma integral de reserva de turnos diseñada bajo un modelo de "Shopping". Permite que múltiples comercios coexistan en una misma infraestructura, cada uno con su propia gestión de profesionales, horarios y clientes.
+![Proyecto Final](https://img.shields.io/badge/Proyecto-Final-informational?style=flat&color=blue)
+![Universidad](https://img.shields.io/badge/Universidad-UPSO-success?style=flat)
+![Materia](https://img.shields.io/badge/Materia-Proyecto_Inform%C3%A1tico-lightgrey)
+![Profesor](https://img.shields.io/badge/Profesor-Carlos_Berger-yellow)
 
-## 🚀 Funcionalidades Principales
+## 👥 Integrantes
+- **Cabri Ramiro**  
+- **Diaz Nieto Melisa Belén**  
+- **Pereyra Tomás**  
 
-### Para Clientes (Acceso Público)
-* **Reserva de Turnos:** Selección de comercio, elección de profesional específico y visualización de disponibilidad en tiempo real.
-* **Gestión por Comprobante:** Sistema de consulta y cancelación mediante número de turno único, sin necesidad de registro obligatorio para el usuario final.
-* **Detalle Completo:** Visualización de datos del comercio, profesional asignado, fecha y hora del turno solicitado.
+## 📝 Descripción del Proyecto
+Este proyecto final tiene como objetivo **integrar los conocimientos adquiridos a lo largo de la carrera y llevar a cabo un proyecto de mayor escala**.  
+Se desarrolló como parte de la materia **Proyecto Informático** de la **Universidad Provincial del Sudoeste**.  
 
-### Para Comercios (Panel de Administración)
-* **Gestión de Staff:** Alta, baja y modificación de profesionales y empleados.
-* **Control de Agendas:** Configuración personalizada de días y horarios de atención por cada profesional.
-* **Monitoreo de Turnos:** Visualización de todas las solicitudes recibidas con capacidad de edición y cancelación.
-* **Administración de Elementos:** Control total sobre los servicios y recursos del comercio.
+## 💻 Tecnologías Utilizadas
+- **Frontend:** [HTML, CSS, Javascript]  
+- **Backend:** [Python, Flask]  
+- **Base de datos:** [MySQL]  
+- **Diseño / Prototipo:** [Figma]
 
-## 🏗️ Arquitectura Técnica
-El proyecto está desarrollado con una separación clara entre la lógica de negocio y la interfaz de usuario:
+## 🎨 Prototipo
+- Realizamos un prototipo interactivo de baja fidelidad en **Figma** y puede visualizarse aquí:  
+🔗 [Ver Prototipo en Figma](https://www.figma.com/proto/VLKxwxaKfyGF71Km0s2vim/GRUPO-2?page-id=0%3A1&node-id=2-7&viewport=254%2C720%2C0.44&t=QMWNKRRqCFA53aBt-1&scaling=contain&content-scaling=fixed&starting-point-node-id=2%3A7)  
 
-* **Backend (`/api`):** Desarrollado en **Python**, encargado de la lógica multitenant, validación de horarios y persistencia de datos.
-* **Frontend (`/frontend`):** Interfaz dinámica que adapta la vista según el rol de sesión (Cliente vs. Comercio).
-* **Punto de Entrada (`main.py`):** Ejecución centralizada del sistema.
-
-## 🛠️ Stack Tecnológico
-* **Lenguaje:** Python
-* **Backend:** [Flask / FastAPI]
-* **Frontend:** [HTML5, CSS3, JavaScript / React]
-* **Manejo de Dependencias:** requirements.txt
-
-## 📂 Estructura del Repositorio
-* `/api`: Endpoints, modelos de datos y lógica de turnos.
-* `/frontend`: Archivos de vista y componentes de la interfaz.
-* `main.py`: Archivo de arranque del servidor.
-* `requirements.txt`: Librerías necesarias para el entorno de ejecución.
-
----
-*Proyecto desarrollado como Tesis Final para la carrera de Técnico en Programación.*
